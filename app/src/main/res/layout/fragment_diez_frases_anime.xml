@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    tools:context=".fragments.DiezFrasesAnimeFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloFraseAnime"
+        android:textSize="40sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="25sp"
+        android:layout_marginEnd="25sp"/>
+
+    <SearchView
+        android:id="@+id/svBuscaAnime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@color/miprimary_light"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="20dp">
+
+        <ProgressBar
+            android:id="@+id/progressBarr"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:outlineAmbientShadowColor="#E53935"
+            android:outlineSpotShadowColor="#E53935"
+            app:indicatorColor="#E53935"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvFrasesAnime"
+            android:layout_width="match_parent"
+            android:layout_height="371dp"
+            android:layout_margin="20dp"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone"
+            tools:listitem="@layout/item_recyclerview" />
+        <!-- android:layoutAnimation="@anim/layout_animation" -->
+
+    </LinearLayout>
+
+</LinearLayout>

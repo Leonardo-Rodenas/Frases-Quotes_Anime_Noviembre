@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AnimeQuotesV2</string>
+
+    <string name="titulo">FRASES ANIME</string>
+    <string name="tituloFraseRandom">FRASES RANDOM</string>
+    <string name="tituloFrasePersonaje">FRASES POR PERSONAJE</string>
+    <string name="tituloFraseAnime">FRASES POR ANIME</string>
+
+    <string name="fraseRandom">Frase Random x 10</string>
+    <string name="frasePorDiezPersonaje">Frase de Personaje x 10</string>
+    <string name="frasePorDiezAnime">Frase de Anime x 10</string>
+
+
+</resources>

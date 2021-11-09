@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/introFragment">
+
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.example.animequotesv2.fragments.IntroFragment"
+        android:label="Frases Anime V2"
+        tools:layout="@layout/fragment_intro">
+        <action
+            android:id="@+id/action_introFragment_to_diezFrasesAnimeFragment"
+            app:destination="@id/diezFrasesAnimeFragment" />
+        <action
+            android:id="@+id/action_introFragment_to_diezFrasesPersonajeFragment"
+            app:destination="@id/diezFrasesPersonajeFragment" />
+        <action
+            android:id="@+id/action_introFragment_to_fraseRandomFragment"
+            app:destination="@id/fraseRandomFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/diezFrasesAnimeFragment"
+        android:name="com.example.animequotesv2.fragments.DiezFrasesAnimeFragment"
+        android:label="Busca frases por algun Anime"
+        tools:layout="@layout/fragment_diez_frases_anime" />
+    <fragment
+        android:id="@+id/diezFrasesPersonajeFragment"
+        android:name="com.example.animequotesv2.fragments.DiezFrasesPersonajeFragment"
+        android:label="Busca frases por algun Personaje"
+        tools:layout="@layout/fragment_diez_frases_personaje" />
+    <fragment
+        android:id="@+id/fraseRandomFragment"
+        android:name="com.example.animequotesv2.fragments.FraseRandomFragment"
+        android:label="Te regalo 10 Frases Random"
+        tools:layout="@layout/fragment_frase_random" />
+</navigation>
