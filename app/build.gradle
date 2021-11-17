@@ -73,4 +73,17 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    //MockWebServer
+    //cambio la que dice implememtation a androidTestImplementation?<-- listo ya lo sincronicé y sigue dando el mismo error el dispatcher?, si el mismo error
+    androidTestImplementation("com.squareup.okhttp3:okhttp:4.9.2")
+    androidTestImplementation "com.squareup.okhttp3:mockwebserver:4.6.0"
+    //testImplementation("com.squareup.okhttp3:mockwebserver:3.12.0")
+
+    //test Google Truth
+    androidTestImplementation "com.google.truth:truth:1.1.3"
+    androidTestImplementation "androidx.arch.core:core-testing:2.0.0"
+
+
+
 }

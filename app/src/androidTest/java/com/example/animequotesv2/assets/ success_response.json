@@ -1,0 +1,23 @@
+{
+    "random" : "{\\\"anime\\\":\\\"Kamisama No Memochou\\\",\\\"character\\\":\\\"Shionji Yuuko\\\",\\\"quote\\\":\\\"NEETs aren't people who can't do or won't do things. The only difference is the rules. Because we're playing with different rules, we're forced to do things differently. The participants are disoriented. They frown. Then they are discouraged by labeling and stereotyping and find comfort in isolation.\\\"}",
+    "quotes": "[{\\\"anime\\\": \\\"Trigun\\\",\\\"character\\\":\\\"Vash the Stampede\\\",\\\"quote\\\": \\\"My name is VASH THE STAMPEDE!! Forgive the lack of warning, but it's time for my daily massacre! If you do not believe I am the real thing, take a good look at me and start freaking out!!\\\"},{\\\"anime\\\": \\\"Tamako Market\\\",\\\"character\\\":\\\"Kunio Yaobi\\\",\\\"quote\\\": \\\"There are some things you can gain by letting some things go. Happiness isn't just what you have here and now.\\\"},{\\\"anime\\\": \\\"Bleach\\\",\\\"character\\\": \\\"Soi Fon\\\",\\\"quote\\\": \\\"Showing your back in a battle? You've become a fool Yoruichi!\\\"},{\\\"anime\\\": \\\"Baccano!\\\",\\\"character\\\": \\\"Ladd Russo\\\",\\\"quote\\\": \\\"Now, dear Uncle, there's a certain person that I'd just love to kill. It doesn't even matter whether they're weak or strong. The people I live to kill, that really get me jazzed... never see it coming. Never. They're in some happy place where they're sure nothing can get them. Dying is the furthest thing from their minds. Maybe they're thinkin' about what they're gonna have for dinner. Just like you were. Right before I walked in.\\\"},{\\\"anime\\\": \\\"Hataraku Maou-sama!\\\",\\\"character\\\": \\\"Urushihara Hanzou\\\",\\\"quote\\\": \\\"Heaven is a six-tatami, one room, second floor apartment on Earth. Being a NEET is the best.\\\"},{\\\"anime\\\": \\\"Hyouka\\\",\\\"character\\\": \\\"Oreki Houtarou\\\",\\\"quote\\\": \\\"Don't care anything and do not do anything that's a waste of energy.\\\"},{\\\"anime\\\": \\\"Tsubasa Reservoir Chronicle\\\",\\\"character\\\": \\\"Kurogane\\\",\\\"quote\\\": \\\"Don't look back. If you got something to do, then only look forward.\\\"},{\\\"anime\\\": \\\"Rurouni Kenshin\\\",\\\"character\\\": \\\"Kenshin Himura\\\",\\\"quote\\\": \\\"The moment you find the courage to give up your life for someone... Would be the moment you understand love.\\\"},{\\\"anime\\\": \\\"Sekai Ichi Hatsukoi\\\",\\\"character\\\": \\\"Masamune Takano\\\",\\\"quote\\\": \\\"I'm going to make you say you love me again. Just you wait.\\\"},{\\\"anime\\\": \\\"Avatar: The Last Airbender\\\",\\\"character\\\": \\\"Mai\\\",\\\"quote\\\": \\\"*referring to Azula* She can shoot all the lightning she wants at me, I'm not going into that wall sludge juice. [shudders]\\\"}]",
+    "quotes/character": ""
+}
+qco cosa te llama la atención? q sean iguales?
+lo de que fueran igual, pensé que tan vez no sea necesario toda la lista, solo el de random y despues al usar quotes/anime/character sólo decir que es
+una lista de random?
+
+esq depende de lo q queremos probar
+
+dices como si buscamos un anime en particular, si necesitarioamos el modelo que trae de vuelta todos los resultados de la busqueda del anime
+
+depende q queremos probar. Ahora estamos dando las respuestas q daría el server real. Entonces estamos compiando directamente lo q da la API real
+quizás alguna de estas respuestas podía ser un error o algo así, para ver q hace la app
+pero con estas ya funciona lo que queramos probar (q entiendo q ahora solo es q dibuje la respuesta)
+
+
+Estuve leyendo q los JSON nopueden tener comentarios :O
+lei lo mismo, pero sugeria usar otra cosa para ponerle comentarios, pero no parecia aplicable ahora asi que no profundicé en eso
+
+por cierto, si quieren el proyecto de las frases para practicar a la tarde (yo no me puedo quedar, tengo que ir a vacunarme la tercera dosis)
+bajenlo de mi repo, con confianza no más, modifiquen lo que necesiten

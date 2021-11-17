@@ -28,3 +28,4 @@ interface FraseService {
     fun obtenerFrasePorAnime(@Query("title", encoded = true) fraseAnime: String): Call<List<Frase>>
 
 }
+

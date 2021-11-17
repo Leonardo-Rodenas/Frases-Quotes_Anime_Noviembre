@@ -81,3 +81,4 @@ class DiezFrasesAnimeFragment : Fragment() {
         return binding.root
     }
 }
+
