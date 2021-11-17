@@ -2,12 +2,16 @@
 <layer-list android:opacity="opaque"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:drawable="#836868"/>
+    <item android:drawable="@color/fondosplash"/>
 
-    <item>
+    <item
 
+        android:left="10dp"
+        android:right="10dp"
+        android:top="260dp"
+        android:bottom="260dp"
+        >
         <bitmap android:src="@drawable/logo"/>
-
     </item>
 
 </layer-list>
